@@ -27,9 +27,9 @@ const SCENE_GROUPS = [
       { name: '被笑里', delta: -70, type: 'decrease', icon: '😄' },
       { name: '被女儿笑里', delta: -82, type: 'decrease', icon: '💃' },
       { name: '用放下/法放', delta: -24, type: 'decrease', icon: '🌿' },
-      { name: '用法破/破甲/凝滞', delta: -28, type: 'decrease', icon: '⚔️' },
+      { name: '用攻心/破甲/凝滞', delta: -28, type: 'decrease', icon: '⚔️' },
       { name: '用法光/法野/流云/光辉/笑里/野兽', delta: -32, type: 'decrease', icon: '✨' },
-      { name: '用弱点', delta: -40, type: 'decrease', icon: '🎯' },
+      { name: '用弱点/水清', delta: -40, type: 'decrease', icon: '🎯' },
       { name: '用破血/琴音/怒目/破碎', delta: -64, type: 'decrease', icon: '🎵' },
       { name: '用晶清/罗汉/慈航', delta: -120, type: 'decrease', icon: '🌸' },
     ]

@@ -641,6 +641,7 @@ function initApp() {
 const LOGIN_ACCOUNTS = [
   { user: 'xm',  pass: '666666' },
   { user: 'jie', pass: '111111' },
+    { user: 'test0310', pass: 'test0310' },
 ];
 const LOGIN_KEY  = 'mhxy-logged-in';
 

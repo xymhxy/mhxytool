@@ -572,7 +572,7 @@ function buildAppHTML() {
     </div>
 
     <footer>
-      <p>由 <a href="X style="color: #8A2BE2;" target="_blank">xyanwechat</a> 个人学习使用，请勿用于任何非学习用途</p>
+      <p>由 <a href="https://xymhxy.github.io/home/ style="color: #8A2BE2;" target="_blank">xyanwechat</a> 个人学习使用，请勿用于任何非学习用途</p>
     </footer>
   `;
 }

@@ -572,7 +572,7 @@ function buildAppHTML() {
     </div>
 
     <footer>
-      <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
+      <p>由 <a href="X style="color: #8A2BE2;" target="_blank">xyanwechat</a> 个人学习使用，请勿用于任何非学习用途</p>
     </footer>
   `;
 }
@@ -642,6 +642,7 @@ const LOGIN_ACCOUNTS = [
   { user: 'xm',  pass: '666666' },
   { user: 'jie', pass: '111111' },
     { user: 'ceshi', pass: '111111' },
+	    { user: 'shui', pass: '111111' },
 ];
 const LOGIN_KEY  = 'mhxy-logged-in';
 
@@ -693,7 +694,7 @@ function initLogin() {
         overlay.classList.add('hidden');
       }, 440);
     } else {
-      showLoginError('账号或密码错误，该计算器仅用于个人学习，不涉及游戏数据读取等敏感行为，且不对外开放注册，如确为学习交流，请联系xy******');
+      showLoginError('账号或密码错误！该计算器仅用于个人学习，不涉及游戏数据读取等敏感行为，且不对外开放注册，如确为学习交流，请联系xyanwechat');
       if (usernameEl) usernameEl.classList.add('error');
       if (passwordEl) passwordEl.classList.add('error');
       setTimeout(() => {

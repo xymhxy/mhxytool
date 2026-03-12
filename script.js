@@ -226,8 +226,8 @@ function getAngerHint(anger) {
   if (anger === 0) return '<span class="hint-calm">平静</span>';
   if (anger < 30) return '<span class="hint-low">低愤怒</span>';
   if (anger < 60) return '<span class="hint-mid">中等愤怒</span>';
-  if (anger < 100) return '<span class="hint-high">高愤怒</span>';
-  if (anger < 150) return '<span class="hint-danger">极高愤怒</span>';
+  if (anger < 119) return '<span class="hint-high">高愤怒</span>';
+  if (anger < 150) return '<span class="hint-danger">极高愤怒，够放大特！</span>';
   return '<span class="hint-max">🔥 愤怒满值！</span>';
 }
 
@@ -643,6 +643,7 @@ const LOGIN_ACCOUNTS = [
   { user: 'jie', pass: '111111' },
     { user: 'ceshi', pass: '111111' },
 	    { user: 'shui', pass: '111111' },
+	{ user: 'cjfj1234', pass: 'qwer4321' },
 ];
 const LOGIN_KEY  = 'mhxy-logged-in';
 

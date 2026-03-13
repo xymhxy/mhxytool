@@ -644,6 +644,7 @@ const LOGIN_ACCOUNTS = [
     { user: 'ceshi', pass: '111111' },
 	    { user: 'shui', pass: '111111' },
 	{ user: 'cjfj1234', pass: 'qwer4321' },
+	{ user: '405025764', pass: 'jwm214793' },
 ];
 const LOGIN_KEY  = 'mhxy-logged-in';
 
